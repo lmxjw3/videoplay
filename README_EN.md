@@ -3,9 +3,9 @@
 ![](https://img.shields.io/badge/version-1.0.0-brightgreen.svg)&#160;
 ![](https://img.shields.io/badge/license-Apache%202-blue.svg)
 
-[**English**](https://github.com/lmxjw3/videoplay/blob/master/README_EN.md)
+[**中文版**](https://github.com/lmxjw3/videoplay/blob/master/README.md)
 
-RecyclerView 实现仿抖音上下滑动切换视频效果，已有线上项目，稳定可用。
+Slide up and down to switch video play by RecyclerView
 
 
 ### Import
@@ -16,14 +16,14 @@ implementation 'com.lmxjw3.media:videoplay:1.0.0'
 
 ### Usage
 
-##### 1. XML 中引用 VideoPlayRecyclerView。
+##### 1. Define in your xml.
 ```
 <com.lmx.library.media.VideoPlayRecyclerView
   android:layout_width="match_parent"
   android:layout_height="match_parent" />
 ```
 
-##### 2. 把 VideoPlayRecyclerView 当普通 RecyclerView 用，并设置 Adapter 继承 VideoPlayAdapter。
+##### 2. Use VideoPlayRecyclerView as a normal RecyclerView , set an adapter extend VideoPlayAdapter to the VideoPlayRecyclerView.
 ```
 public class MyVideoAdapter extends VideoPlayAdapter {
 
@@ -45,7 +45,7 @@ public class MyVideoAdapter extends VideoPlayAdapter {
 
     @Override
     public void onPageSelected(int itemPosition, View itemView) {
-        // 监听页面切换
+        // watch on page select here
     }
 }
 ```
