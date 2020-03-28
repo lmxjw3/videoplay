@@ -100,7 +100,7 @@ public class MainAdapter extends VideoPlayAdapter<MainAdapter.ViewHolder> {
             }
             mCurrentHolder.flVideo.addView(textureView);
         }
-        videoPlayer.setDataSource("https://aweme.snssdk.com/aweme/v1/playwm/?s_vid=93f1b41336a8b7a442dbf1c29c6bbc560adee456f0a4c4b17314be35f725d0d8c0e6adce610bbdd4be2fc6dd3ba5225ebcdf2f96448a779796f463d0c0f8fa66&line=0");
+        videoPlayer.setDataSource("http://v26-dy.ixigua.com/fec1cdbacea5300847491af13a5f93a3/5e7f3e00/video/m/220fece152871dc46b39e40f5736497bc4411628c6940000b6ac2a4a2bcb/?a=1128&br=0&bt=2880&cr=0&cs=0&dr=0&ds=3&er=&l=2020032819071901001404003714D54A8D&lr=aweme&qs=0&rc=M3VzZG88c2VzbjMzO2kzM0ApPDk5Zzs8O2VlN2c8NWY0aGc2NV41amZpMy5fLS0zLTBzczRjYjQ0NTAyYS1iYDNiNTY6Yw%3D%3D&vl=&vr=");
         videoPlayer.prepare();
     }
 
