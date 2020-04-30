@@ -1,6 +1,6 @@
 # videoplay
 
-![](https://img.shields.io/badge/version-1.0.0-brightgreen.svg)&#160;
+![](https://img.shields.io/badge/version-1.0.1-brightgreen.svg)&#160;
 ![](https://img.shields.io/badge/license-Apache%202-blue.svg)
 
 [**English**](https://github.com/lmxjw3/videoplay/blob/master/README_EN.md)
@@ -10,7 +10,7 @@ RecyclerView 实现仿抖音上下滑动切换视频效果，已有线上项目�
 
 ### Import
 ```
-implementation 'com.lmxjw3.media:videoplay:1.0.0'
+implementation 'com.lmxjw3.media:videoplay:1.0.1'
 ```
 
 
