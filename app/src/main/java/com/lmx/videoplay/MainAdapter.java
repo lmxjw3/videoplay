@@ -43,7 +43,7 @@ public class MainAdapter extends VideoPlayAdapter<MainAdapter.ViewHolder> {
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         RequestOptions options = new RequestOptions().diskCacheStrategy(DiskCacheStrategy.RESOURCE);
-        Glide.with(mContext).load("https://p1.pstatp.com/large/273c00008b60c79ec00fe.jpg").apply(options).into(holder.ivCover);
+        Glide.with(mContext).load("https://tx2.a.yximgs.com/upic/2020/04/24/20/BMjAyMDA0MjQyMDExMDRfNTkzMzMzMzJfMjczMzU3NDA0ODVfMV8z_B26385cd47079260e711ba54cdf65b594.jpg").apply(options).into(holder.ivCover);
     }
 
     @Override
@@ -100,7 +100,7 @@ public class MainAdapter extends VideoPlayAdapter<MainAdapter.ViewHolder> {
             }
             mCurrentHolder.flVideo.addView(textureView);
         }
-        videoPlayer.setDataSource("http://v26-dy.ixigua.com/fec1cdbacea5300847491af13a5f93a3/5e7f3e00/video/m/220fece152871dc46b39e40f5736497bc4411628c6940000b6ac2a4a2bcb/?a=1128&br=0&bt=2880&cr=0&cs=0&dr=0&ds=3&er=&l=2020032819071901001404003714D54A8D&lr=aweme&qs=0&rc=M3VzZG88c2VzbjMzO2kzM0ApPDk5Zzs8O2VlN2c8NWY0aGc2NV41amZpMy5fLS0zLTBzczRjYjQ0NTAyYS1iYDNiNTY6Yw%3D%3D&vl=&vr=");
+        videoPlayer.setDataSource("https://txmov2.a.yximgs.com/bs2/newWatermark/MjczMzU3NDA0ODU_zh_3.mp4");
         videoPlayer.prepare();
     }
 

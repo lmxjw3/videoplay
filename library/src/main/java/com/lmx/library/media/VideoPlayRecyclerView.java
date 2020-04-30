@@ -56,7 +56,7 @@ public class VideoPlayRecyclerView extends FrameLayout {
         tvTip.setGravity(Gravity.CENTER_HORIZONTAL);
         addView(tvTip, LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT);
         // RecyclerView
-        recyclerView = new RecyclerView(getContext());
+        recyclerView = new NestRecyclerView(getContext());
         addView(recyclerView, LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT);
         layoutManager = new PagerLayoutManager(getContext());
         recyclerView.setLayoutManager(layoutManager);
