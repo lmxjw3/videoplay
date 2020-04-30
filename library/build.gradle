@@ -30,7 +30,7 @@ publish {
     repoName = 'maven' // 仓库名
     groupId = 'com.lmxjw3.media'
     artifactId = 'videoplay'
-    publishVersion = '1.0.0'
+    publishVersion = '1.0.1'
     desc = '仿抖音上下滑动切换视频播放'
     website = 'https://github.com/lmxjw3/videoplay'
     dryRun = false
